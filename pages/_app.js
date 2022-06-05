@@ -8,9 +8,9 @@ function MyApp({ Component, pageProps }) {
   const [carrito, setCarrito] = useState([])
 
   useEffect(() => {
-    const carritoLS = JSON.parse(localStorage.getItem("carrito")) ?? [];
+    const carritoLS = JSON.parse(localStorage.getItem("carrito")) ?? []
     setCarrito(carritoLS);
-  }, []);
+  }, [])
 
   useEffect(() => {
     localStorage.setItem('carrito', JSON.stringify(carrito))
