@@ -1,7 +1,7 @@
 import Link from 'next/dist/client/link'
 import Image from 'next/dist/client/image'
 import { useRouter } from 'next/router' 
-import styles from "../styles/header.module.css"
+import styles from "../styles/Header.module.css"
 
 
 const Header = ({ guitarra }) => {
