@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const carritoLS = JSON.parse(localStorage.getItem("carrito")) ?? [];
-      setCarrito(carritoLS);
+    setCarrito(carritoLS);
   }, []);
 
   useEffect(() => {
